@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="69f3594ff0ec4fe1bb681990f1c30f5b" Name="Diagram1">
+        <EntityTypeShape EntityType="final_prog3Model.Cargos" Width="1.5" PointX="0.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="final_prog3Model.Departamentos" Width="1.5" PointX="2.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="final_prog3Model.Empleados" Width="1.5" PointX="0.875" PointY="2.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="final_prog3Model.Licencias" Width="1.5" PointX="2.75" PointY="3.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="final_prog3Model.Nominas" Width="1.5" PointX="4.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="final_prog3Model.Permisos" Width="1.5" PointX="4.75" PointY="3.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="final_prog3Model.SalidaEmpleados" Width="1.5" PointX="6.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="final_prog3Model.Vacaciones" Width="1.5" PointX="2.75" PointY="6.75" IsExpanded="true" />
+        <AssociationConnector Association="final_prog3Model.FK__Empleados__Cargo__5070F446" />
+        <AssociationConnector Association="final_prog3Model.FK__Empleados__Cargo__5165187F" />
+        <AssociationConnector Association="final_prog3Model.FK__Departame__Encar__4E88ABD4" />
+        <AssociationConnector Association="final_prog3Model.FK__Departame__Encar__4F7CD00D" />
+        <AssociationConnector Association="final_prog3Model.FK__Licencias__IdEmp__52593CB8" />
+        <AssociationConnector Association="final_prog3Model.FK__Licencias__IdEmp__534D60F1" />
+        <AssociationConnector Association="final_prog3Model.FK__Permisos__IdEmpl__5441852A" />
+        <AssociationConnector Association="final_prog3Model.FK__Permisos__IdEmpl__5535A963" />
+        <AssociationConnector Association="final_prog3Model.FK__SalidaEmp__IdEmp__5629CD9C" />
+        <AssociationConnector Association="final_prog3Model.FK__SalidaEmp__IdEmp__571DF1D5" />
+        <AssociationConnector Association="final_prog3Model.FK__Vacacione__IdEmp__5812160E" />
+        <AssociationConnector Association="final_prog3Model.FK__Vacacione__IdEmp__59063A47" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
