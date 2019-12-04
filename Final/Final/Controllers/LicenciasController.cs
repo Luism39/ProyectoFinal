@@ -17,6 +17,8 @@ namespace Final.Controllers
         // GET: Licencias
         public ActionResult Index()
         {
+            var result = from items in db.Empleados
+                         select new { Empleados = items.Codigo, items.Nombre };
             return View(db.Licencias.ToList());
         }
 

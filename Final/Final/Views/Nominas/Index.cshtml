@@ -5,14 +5,14 @@
 }
 
 <h2>Lista de nominas</h2>
-
+<button type="button" class="btn btn-light" onclick="location.href='@Url.Action("VistaNomina","Nominas")'">Nueva Nomina</button>
 <p>
     @using (Html.BeginForm("Index", "Nomina", FormMethod.Get))
     {
 
         <div class="btn-group btn-group-toggle" data-toggle="buttons" style="padding-left:30%">
             <label class="btn btn-primary active">
-                @Html.RadioButton("Busqueda", "Año", true) Año
+                @Html.RadioButton("Busqueda", "Año") Año
             </label>
             <label class="btn btn-primary ">
                 @Html.RadioButton("Busqueda", "Mes")  Mes
@@ -21,7 +21,8 @@
         </div>
 
         <input type="submit" class="btn btn-success" value="Buscar" />
-        <button type="button" class="btn btn-light" onclick="location.href='@Url.Action("Index","Nomina")'">Limpiar</button>
+        <button type="button" class="btn btn-light" onclick="location.href='@Url.Action("Index","Nominas")'">Limpiar</button>
+
     }
 </p>
     

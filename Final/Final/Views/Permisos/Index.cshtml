@@ -5,7 +5,7 @@
 }
 
 <h2>Lista de permisos</h2>
-
+<button type="button" class="btn btn-light" onclick="location.href='@Url.Action("Create","Permisos")'">Crear Permiso</button>
 <p>
     @using (Html.BeginForm("Index", "Permisos", FormMethod.Get))
     {

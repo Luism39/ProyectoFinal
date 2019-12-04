@@ -80,7 +80,7 @@ namespace Final.Controllers
                         break;
                 }
 
-                return View(db.Nominas.Where(x => x.Mes == d).ToList());
+                return View(db.Nominas.Where(m => m.Mes == d).ToList());
             }
             else
             {

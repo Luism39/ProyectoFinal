@@ -5,6 +5,7 @@
 }
 
 <h2>Licencia de empleados</h2>
+<button type="button" class="btn btn-light" onclick="location.href='@Url.Action("Create","Licencias")'">Crear Licencia</button>
 <br />
 <table class="table table-bordered">
     <tr class="btn-info">
@@ -21,7 +22,7 @@
             @Html.DisplayNameFor(model => model.Comentarios)
         </th>
         <th>
-            @Html.DisplayNameFor(model => model.Empleado.Codigo)
+            @Html.DisplayNameFor(model => model.Empleados)
         </th>
 
     </tr>
@@ -42,7 +43,7 @@
                 @Html.DisplayFor(modelItem => item.Comentarios)
             </td>
             <td>
-                @Html.DisplayFor(modelItem => item.Empleado.Codigo)
+                @Html.DisplayFor(modelItem => item.Empleados)
             </td>
 
         </tr>
