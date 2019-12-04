@@ -212,6 +212,7 @@
   <ItemGroup>
     <Content Include="A.jpg" />
     <Content Include="AZ.png" />
+    <Content Include="B.jpg" />
     <Content Include="Content\bootstrap-theme.css" />
     <Content Include="Content\bootstrap-theme.min.css" />
     <Content Include="Content\bootstrap.css" />
@@ -288,6 +289,7 @@
     <Content Include="Views\Empleados\Details.cshtml" />
     <Content Include="Views\Empleados\Create.cshtml" />
     <Content Include="Views\Empleados\Edit.cshtml" />
+    <Content Include="Views\Empleados\Delete.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
